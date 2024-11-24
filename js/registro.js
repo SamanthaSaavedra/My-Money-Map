@@ -1,5 +1,6 @@
-document.getElementById("btn__iniciar-sesion").addEventListener("click", iniciarSesion);
 document.getElementById("btn__registrarse").addEventListener("click", register);
+document.getElementById("btn__iniciar-sesion").addEventListener("click", iniciarSesion);
+
 
 window.addEventListener("resize", anchoPagina)
 
@@ -12,7 +13,7 @@ var caja_trasera_login = document.querySelector(".caja__trasera-login");
 var caja_trasera_register = document.querySelector(".caja__trasera-register");
 
 function anchoPagina(){
-    if(window.innerWidth > 850){
+    if(window.innerWidth > 870){
         caja_trasera_login.style.display = "block"; 
         caja_trasera_register.style.display = "block";
     } else{
